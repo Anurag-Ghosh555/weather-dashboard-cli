@@ -42,7 +42,3 @@ python weather_dashboard.py --city "New York" --units fahrenheit
 
 - Python 3.8+
 - See requirements.txt for package dependencies
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
