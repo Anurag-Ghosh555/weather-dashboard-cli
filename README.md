@@ -25,3 +25,28 @@ cd weather-dashboard-cli
 python -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 ```
+3. Install the required packages:-
+```bash
+pip install -r requirements.txt
+```
+4. Get an API key from OpenWeatherMap and add it to .env file:-
+```bash
+OPENWEATHER_API_KEY=your_api_key_here
+```
+5. Usage:-
+```bash
+python weather_dashboard.py --city "London" --units celsius
+python weather_dashboard.py --city "New York" --units fahrenheit
+```
+## Requirements
+
+- Python 3.8+
+- See requirements.txt for package dependencies
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
