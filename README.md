@@ -15,7 +15,13 @@ A command-line interface (CLI) tool that fetches and displays weather informatio
 
 ## Installation
 
-1. Clone this repository:
+1. Clone this repository:-
 ```bash
 git clone https://github.com/yourusername/weather-dashboard-cli.git
 cd weather-dashboard-cli
+```
+2. Create a virtual environment and activate it:-
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+```
